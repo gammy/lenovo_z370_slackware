@@ -1,4 +1,4 @@
-Lenovo Ideapad z380 configuration for slackware64
+Lenovo Ideapad z370 configuration for slackware64
 =================================================
 
 Contents
