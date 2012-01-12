@@ -38,9 +38,9 @@ Partially working
 -----------------
 * Networking
  * Wireless (```ath9k```, ```cfg80211```)
-  * Works, but the physical RF kill switch does nothing even with ```ideapad_laptop``` loaded
+<ul><li>Works, but the physical RF kill switch does nothing even with ```ideapad_laptop``` loaded</li></ul>
  * Wired (```r8169```)
-  * Works, but exhibits high packet loss on new connections during high bandwidth load
+<ul><li>Works, but exhibits high packet loss on new connections during high bandwidth load</li></ul>
 * Multimedia
  * Hotkeys (resistive-touch buttons)
  * FN-keys
