@@ -30,10 +30,7 @@ H/W path         Device     Class          Description
 /0/100/1f.2      scsi1      storage        6 Series Chipset Family 6 port SATA AHCI Controller
 /0/100/1f.2/0    /dev/sda   disk           750GB WDC WD7500BPVT-2
 /0/100/1f.2/0/1  /dev/sda1  volume         8GiB Linux swap volume
-/0/100/1f.2/0/2             volume         1000MiB Linux filesystem partition
+/0/100/1f.2/0/2  /dev/sda2  volume         1000MiB Linux filesystem partition
 /0/100/1f.2/0/3  /dev/sda3  volume         400GiB EXT3 volume
 /0/100/1f.2/1    /dev/cdr   disk           CDDVDW TS-L633F
 /0/100/1f.3                 bus            6 Series Chipset Family SMBus Controller
-/0/1             scsi8      storage        
-/0/1/0.0.0       /dev/sdb   disk           xD/SD/M.S.
-/0/1/0.0.0/0     /dev/sdb   disk           

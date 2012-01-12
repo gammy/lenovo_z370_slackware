@@ -30,10 +30,7 @@ pci@0000:00:1f.0             bridge         HM65 Express Chipset Family LPC Cont
 pci@0000:00:1f.2  scsi1      storage        6 Series Chipset Family 6 port SATA AHCI Controller
 scsi@1:0.0.0      /dev/sda   disk           750GB WDC WD7500BPVT-2
 scsi@1:0.0.0,1    /dev/sda1  volume         8GiB Linux swap volume
-scsi@1:0.0.0,2               volume         1000MiB Linux filesystem partition
+scsi@1:0.0.0,2    /dev/sda2  volume         1000MiB Linux filesystem partition
 scsi@1:0.0.0,3    /dev/sda3  volume         400GiB EXT3 volume
 scsi@3:0.0.0      /dev/cdr   disk           CDDVDW TS-L633F
 pci@0000:00:1f.3             bus            6 Series Chipset Family SMBus Controller
-usb@1:1.3         scsi8      storage        
-scsi@8:0.0.0      /dev/sdb   disk           xD/SD/M.S.
-                  /dev/sdb   disk           

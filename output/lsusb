@@ -285,7 +285,7 @@ Device Qualifier (for other device speed):
 Device Status:     0x0001
   Self Powered
 
-Bus 001 Device 008: ID 0bda:0139 Realtek Semiconductor Corp. 
+Bus 001 Device 003: ID 0bda:0139 Realtek Semiconductor Corp. 
 Device Descriptor:
   bLength                18
   bDescriptorType         1
