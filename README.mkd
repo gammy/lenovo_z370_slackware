@@ -8,8 +8,9 @@ Contents
 * Modified rc-files
 * Local and global profile scripts
 * Modified xwmconfig/xdm scripts which add an option for pekwm
+* Machine information
+* Etc
 
-Etc.
 This is a work in progress.
 
 Functionality
@@ -41,7 +42,7 @@ Partially working
  * Wired (```r8169```)
 <ul><li>Works, but exhibits high packet loss on new connections during high bandwidth load</li></ul>
 * Multimedia
- * Hotkeys (resistive-touch buttons)
+ * Hotkeys (resistive-touch buttons) - buggy. See [this video](http://www.youtube.com/watch?v=cx2vYzSv0mo).
  * FN-keys
 <ul><li>LCD brightness keys work (even without ```ideapad_laptop```)
 <li>Volume keys, suspend, mute etc do not work</li></ul>
@@ -52,7 +53,7 @@ Partially working
 Not working
 -----------
 * Video
- * Hybrid graphics using the NVIDIA gpu for accelerated graphics
+ * [Hybrid graphics](http://linux-hybrid-graphics.blogspot.com) using the NVIDIA gpu for accelerated graphics
 
 Untested
 --------
