@@ -1,0 +1,26 @@
+#!/bin/bash
+# Copy interesting files to this repository
+# Only for my internal use.
+
+# Config target path
+cfg="cfg"
+
+if [ ! -d "$cfg" ]; then 
+	mkdir -v "$cfg"
+fi
+
+## Obtain kernel [source] arch and release
+kern_src=$(readlink /usr/src/linux)
+kern_cfg="$kern_src/.config"
+tmp=($(head -n3 "$kern_cfg" | tail -1 | cut -d " " -f 2,3))
+kern_arch=${tmp[0]/*\//}
+kern_rel=${tmp[1]}
+unset tmp
+
+## Initrd config
+initrd_cfg="/etc/mkinitrd.conf"
+
+## Copy files
+cp -v "$kern_cfg" "$cfg/linux-${kern_rel}-${kern_arch}.config"
+cp -v "$initrd_cfg" "$cfg/"
+
