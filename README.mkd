@@ -1,0 +1,54 @@
+Lenovo Ideapad z380 configuration for slackware64
+=================================================
+
+Contents
+--------
+
+* Kernel configuration
+* mkinitrd configuration (invoked by ```mkinitrd -c -k <kernel revision> -F ```)
+* Modified rc-files
+* Local and global profile scripts
+* Modified xwmconfig/xdm scripts which add an option for pekwm
+
+Etc.
+This is a work in progress.
+
+Functionality
+=============
+
+Working
+-------
+
+* Video
+** intel graphics
+* Power-management
+** Hibernate
+** Suspend
+** Disable screen when lid closes
+** Batteryxi & AC status
+** Ondemand CPU frequency scaling
+* Multimedia
+** Webcam
+** Audio 
+
+Partially working
+-----------------
+* Multimedia
+** Hotkeys (resistive-touch buttons)
+** FN-keys
+*** LCD brightness keys work (even without ```ideapad_laptop```)
+*** Volume keys do NOT work
+** Bluetooth (detected but untested)
+** Touchpad
+*** Multitouch works
+*** Right-side scroll not yet configured
+
+Not working
+-----------
+* Video
+** Hybrid graphics using the NVIDIA gpu for accelerated graphics
+
+Untested
+--------
+* Multimedia
+** Microphone

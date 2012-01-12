@@ -20,9 +20,6 @@ unset tmp
 ## Local bashrc
 bash_cfg="$HOME/.bashrc"
 
-## Pekwm config
-pekwm_path="$HOME/.pekwm"
-
 ## Copy files
  
 # Copy files to modified targets
