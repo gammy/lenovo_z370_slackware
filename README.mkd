@@ -5,7 +5,7 @@ Contents
 --------
 
 * Kernel configuration
-* mkinitrd configuration (invoked by ```mkinitrd -c -k <kernel revision> -F ```)
+* Initrd configuration (invoked by ```mkinitrd -c -k <kernel revision> -F ```)
 * Modified rc-files
 * Local and global profile scripts
 * Modified xwmconfig/xdm scripts which add an option for pekwm
@@ -16,9 +16,12 @@ This is a work in progress.
 Functionality
 =============
 
+Quick summary
+-------------
+Core functionality works. Accelerated graphics are a no-go. Resistive touch buttons are buggy.
+
 Working
 -------
-
 * Video
  * intel graphics
 * Power-management
@@ -33,12 +36,16 @@ Working
 
 Partially working
 -----------------
+* Networking
+ * Wireless (```ath9k```)
+  * Works, but the physical RF kill switch does nothing even with ```ideapad_laptop``` loaded
+ * Wired (```r8169```)
+  * Works, but exhibits high packet loss on new connections during high bandwidth load
 * Multimedia
  * Hotkeys (resistive-touch buttons)
  * FN-keys
   * LCD brightness keys work (even without ```ideapad_laptop```)
-  * Volume keys do NOT work
- * Bluetooth (detected but untested)
+  * Volume keys, suspend, mute etc do not work
  * Touchpad
   * Multitouch works
   * Right-side scroll not yet configured
@@ -50,5 +57,8 @@ Not working
 
 Untested
 --------
+* Networking
+ * Bluetooth (detected but untested)
 * Multimedia
  * Microphone
+

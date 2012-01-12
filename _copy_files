@@ -22,11 +22,9 @@ bash_cfg="$HOME/.bashrc"
 
 ## Copy files
  
-# Copy files to modified targets
 cp -v "$kern_cfg" "$cfg/linux-${kern_rel}-${kern_arch}.config"
 cp -v "$bash_cfg" "$cfg/bashrc-local"
 
-# Copy files
 for f in "/etc/mkinitrd.conf" \
 	  "/etc/profile" \
 	  "/etc/rc.d/rc.local" \
