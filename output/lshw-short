@@ -1,22 +1,39 @@
-H/W path       Device  Class          Description
-=================================================
-                       system         Computer
-/0                     bus            Motherboard
-/0/0                   memory         3861MiB System memory
-/0/1                   processor      Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz
-/0/100                 bridge         2nd Generation Core Processor Family DRAM Controller
-/0/100/1               bridge         2nd Generation Core Processor Family PCI Express Root Port
-/0/100/1/0             display        nVidia Corporation
-/0/100/2               display        2nd Generation Core Processor Family Integrated Graphics Controller
-/0/100/16              communication  6 Series Chipset Family MEI Controller #1
-/0/100/1a              bus            6 Series Chipset Family USB Enhanced Host Controller #2
-/0/100/1b              multimedia     6 Series Chipset Family High Definition Audio Controller
-/0/100/1c              bridge         6 Series Chipset Family PCI Express Root Port 1
-/0/100/1c.1            bridge         6 Series Chipset Family PCI Express Root Port 2
-/0/100/1c.1/0  eth0    network        RTL8101E/RTL8102E PCI Express Fast Ethernet controller
-/0/100/1c.2            bridge         6 Series Chipset Family PCI Express Root Port 3
-/0/100/1c.2/0  wlan0   network        AR9285 Wireless Network Adapter (PCI-Express)
-/0/100/1d              bus            6 Series Chipset Family USB Enhanced Host Controller #1
-/0/100/1f              bridge         HM65 Express Chipset Family LPC Controller
-/0/100/1f.2            storage        6 Series Chipset Family 6 port SATA AHCI Controller
-/0/100/1f.3            bus            6 Series Chipset Family SMBus Controller
+H/W path         Device     Class          Description
+======================================================
+                            system         IdeaPad Z370 ()
+/0                          bus            Motherboard
+/0/0                        memory         106KiB BIOS
+/0/2                        bus            KL5
+/0/4                        processor      Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz
+/0/4/5                      memory         32KiB L1 cache
+/0/4/6                      memory         256KiB L2 cache
+/0/4/7                      memory         3MiB L3 cache
+/0/f                        memory         4GiB System Memory
+/0/f/0                      memory         4GiB SODIMM DDR3 Synchronous 1334 MHz (0.7 ns)
+/0/f/1                      memory         SODIMM Synchronous [empty]
+/0/f/2                      memory         SODIMM Synchronous [empty]
+/0/f/3                      memory         SODIMM Synchronous [empty]
+/0/100                      bridge         2nd Generation Core Processor Family DRAM Controller
+/0/100/1                    bridge         2nd Generation Core Processor Family PCI Express Root Port
+/0/100/1/0                  display        nVidia Corporation
+/0/100/2                    display        2nd Generation Core Processor Family Integrated Graphics Controller
+/0/100/16                   communication  6 Series Chipset Family MEI Controller #1
+/0/100/1a                   bus            6 Series Chipset Family USB Enhanced Host Controller #2
+/0/100/1b                   multimedia     6 Series Chipset Family High Definition Audio Controller
+/0/100/1c                   bridge         6 Series Chipset Family PCI Express Root Port 1
+/0/100/1c.1                 bridge         6 Series Chipset Family PCI Express Root Port 2
+/0/100/1c.1/0    eth0       network        RTL8101E/RTL8102E PCI Express Fast Ethernet controller
+/0/100/1c.2                 bridge         6 Series Chipset Family PCI Express Root Port 3
+/0/100/1c.2/0    wlan0      network        AR9285 Wireless Network Adapter (PCI-Express)
+/0/100/1d                   bus            6 Series Chipset Family USB Enhanced Host Controller #1
+/0/100/1f                   bridge         HM65 Express Chipset Family LPC Controller
+/0/100/1f.2      scsi1      storage        6 Series Chipset Family 6 port SATA AHCI Controller
+/0/100/1f.2/0    /dev/sda   disk           750GB WDC WD7500BPVT-2
+/0/100/1f.2/0/1  /dev/sda1  volume         8GiB Linux swap volume
+/0/100/1f.2/0/2             volume         1000MiB Linux filesystem partition
+/0/100/1f.2/0/3  /dev/sda3  volume         400GiB EXT3 volume
+/0/100/1f.2/1    /dev/cdr   disk           CDDVDW TS-L633F
+/0/100/1f.3                 bus            6 Series Chipset Family SMBus Controller
+/0/1             scsi8      storage        
+/0/1/0.0.0       /dev/sdb   disk           xD/SD/M.S.
+/0/1/0.0.0/0     /dev/sdb   disk           

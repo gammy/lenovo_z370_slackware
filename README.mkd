@@ -29,8 +29,9 @@ Working
  * Battery & AC status
  * Ondemand CPU frequency scaling
 * Multimedia
+ * Memory card reader (```rts5139```)
  * Webcam (```uvcvideo```)
- * Audio 
+ * Audio
 
 Partially working
 -----------------

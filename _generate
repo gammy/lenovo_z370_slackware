@@ -42,9 +42,10 @@ for f in "/etc/mkinitrd.conf" \
 done
 
 ## Dump system info
+sudo -s << EOF
 lspci -vv > "$dump/lspci"
 lsusb -v > "$dump/lsusb"
-
 lshw -short > "$dump/lshw-short"
 lshw -businfo > "$dump/lshw-businfo"
 lshw -html > "$dump/lshw.html"
+EOF
