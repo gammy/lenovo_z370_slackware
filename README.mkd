@@ -44,8 +44,10 @@ Partially working
 * Multimedia
  * Hotkeys (resistive-touch buttons)
  * FN-keys
-   LCD brightness keys work (even without ```ideapad_laptop```)
-   Volume keys, suspend, mute etc do not work
+LCD brightness keys work (even without ```ideapad_laptop```)
+
+Volume keys, suspend, mute etc do not work
+
  * Touchpad
    Multitouch works
    Right-side scroll not yet configured
