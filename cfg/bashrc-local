@@ -1,0 +1,19 @@
+source /etc/profile
+#source /home/gammy/code/tracked/github/shist/dstack
+
+#export DEVKITPRO=/opt/devkitpro
+#export DEVKITPPC=$DEVKITPRO/devkitPPC
+#export WIILOAD=tcp:192.168.1.67
+#export PATH=$DEVKITPPC/bin:$PATH
+
+export PATH=/sbin:$PATH
+export PATH=/usr/sbin:$PATH
+
+#export PATH=$PATH:/home/gammy/code/LPC1788/IDE/lpcxpresso/tools/bin
+#export PATH=$PATH:/home/gammy/code/LPC1788/IDE/lpcxpresso/bin
+
+#export GOROOT=/home/gammy/programs/go
+#export GOBIN=$GOROOT/bin
+#export PATH=$PATH:$GOBIN
+
+alias "mplayer-webcam"="mplayer -tv driver=v4l2:width=640:height=480 -vf screenshot tv://"

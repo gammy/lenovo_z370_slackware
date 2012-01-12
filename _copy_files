@@ -17,10 +17,24 @@ kern_arch=${tmp[0]/*\//}
 kern_rel=${tmp[1]}
 unset tmp
 
-## Initrd config
-initrd_cfg="/etc/mkinitrd.conf"
+## Local bashrc
+bash_cfg="$HOME/.bashrc"
+
+## Pekwm config
+pekwm_path="$HOME/.pekwm"
 
 ## Copy files
+ 
+# Copy files to modified targets
 cp -v "$kern_cfg" "$cfg/linux-${kern_rel}-${kern_arch}.config"
-cp -v "$initrd_cfg" "$cfg/"
+cp -v "$bash_cfg" "$cfg/bashrc-local"
 
+# Copy files
+for f in "/etc/mkinitrd.conf" \
+	  "/etc/profile" \
+	  "/etc/rc.d/rc.local" \
+	  "/etc/rc.d/rc.modules" \
+	  "/usr/bin/xwmconfig" \
+	  "/etc/X11/xinit/xinitrc.pekwm"; do
+	cp -v "$f" "$cfg/"
+done
