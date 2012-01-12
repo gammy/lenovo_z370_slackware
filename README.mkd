@@ -20,35 +20,35 @@ Working
 -------
 
 * Video
-** intel graphics
+ * intel graphics
 * Power-management
-** Hibernate
-** Suspend
-** Disable screen when lid closes
-** Batteryxi & AC status
-** Ondemand CPU frequency scaling
+ * Hibernate
+ * Suspend
+ * Disable screen when lid closes
+ * Batteryxi & AC status
+ * Ondemand CPU frequency scaling
 * Multimedia
-** Webcam
-** Audio 
+ * Webcam
+ * Audio 
 
 Partially working
 -----------------
 * Multimedia
-** Hotkeys (resistive-touch buttons)
-** FN-keys
-*** LCD brightness keys work (even without ```ideapad_laptop```)
-*** Volume keys do NOT work
-** Bluetooth (detected but untested)
-** Touchpad
-*** Multitouch works
-*** Right-side scroll not yet configured
+ * Hotkeys (resistive-touch buttons)
+ * FN-keys
+  * LCD brightness keys work (even without ```ideapad_laptop```)
+  * Volume keys do NOT work
+ * Bluetooth (detected but untested)
+ * Touchpad
+  * Multitouch works
+  * Right-side scroll not yet configured
 
 Not working
 -----------
 * Video
-** Hybrid graphics using the NVIDIA gpu for accelerated graphics
+ * Hybrid graphics using the NVIDIA gpu for accelerated graphics
 
 Untested
 --------
 * Multimedia
-** Microphone
+ * Microphone
