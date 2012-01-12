@@ -3,7 +3,6 @@ Lenovo Ideapad z380 configuration for slackware64
 
 Contents
 --------
-
 * Kernel configuration
 * Initrd configuration (invoked by ```mkinitrd -c -k <kernel revision> -F ```)
 * Modified rc-files
@@ -15,7 +14,6 @@ This is a work in progress.
 
 Functionality
 =============
-
 Quick summary
 -------------
 Core functionality works. Accelerated graphics are a no-go. Resistive touch buttons are buggy.

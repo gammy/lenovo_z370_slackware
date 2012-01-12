@@ -1,0 +1,22 @@
+Bus info          Device  Class          Description
+====================================================
+                          system         Computer
+                          bus            Motherboard
+                          memory         3861MiB System memory
+cpu@0                     processor      Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz
+pci@0000:00:00.0          bridge         2nd Generation Core Processor Family DRAM Controller
+pci@0000:00:01.0          bridge         2nd Generation Core Processor Family PCI Express Root Port
+pci@0000:01:00.0          display        nVidia Corporation
+pci@0000:00:02.0          display        2nd Generation Core Processor Family Integrated Graphics Controller
+pci@0000:00:16.0          communication  6 Series Chipset Family MEI Controller #1
+pci@0000:00:1a.0          bus            6 Series Chipset Family USB Enhanced Host Controller #2
+pci@0000:00:1b.0          multimedia     6 Series Chipset Family High Definition Audio Controller
+pci@0000:00:1c.0          bridge         6 Series Chipset Family PCI Express Root Port 1
+pci@0000:00:1c.1          bridge         6 Series Chipset Family PCI Express Root Port 2
+pci@0000:05:00.0  eth0    network        RTL8101E/RTL8102E PCI Express Fast Ethernet controller
+pci@0000:00:1c.2          bridge         6 Series Chipset Family PCI Express Root Port 3
+pci@0000:06:00.0  wlan0   network        AR9285 Wireless Network Adapter (PCI-Express)
+pci@0000:00:1d.0          bus            6 Series Chipset Family USB Enhanced Host Controller #1
+pci@0000:00:1f.0          bridge         HM65 Express Chipset Family LPC Controller
+pci@0000:00:1f.2          storage        6 Series Chipset Family 6 port SATA AHCI Controller
+pci@0000:00:1f.3          bus            6 Series Chipset Family SMBus Controller

@@ -1,12 +1,20 @@
 #!/bin/bash
-# Copy interesting files to this repository
+# - Copy interesting files
+# - Generate some output files
 # Only for my internal use.
 
-# Config target path
+# Config target
 cfg="cfg"
+
+# Output target
+dump="output"
 
 if [ ! -d "$cfg" ]; then 
 	mkdir -v "$cfg"
+fi
+
+if [ ! -d "$dump" ]; then 
+	mkdir -v "$dump"
 fi
 
 ## Obtain kernel [source] arch and release
@@ -21,7 +29,6 @@ unset tmp
 bash_cfg="$HOME/.bashrc"
 
 ## Copy files
- 
 cp -v "$kern_cfg" "$cfg/linux-${kern_rel}-${kern_arch}.config"
 cp -v "$bash_cfg" "$cfg/bashrc-local"
 
@@ -33,3 +40,11 @@ for f in "/etc/mkinitrd.conf" \
 	  "/etc/X11/xinit/xinitrc.pekwm"; do
 	cp -v "$f" "$cfg/"
 done
+
+## Dump system info
+lspci -vv > "$dump/lspci"
+lsusb -v > "$dump/lsusb"
+
+lshw -short > "$dump/lshw-short"
+lshw -businfo > "$dump/lshw-businfo"
+lshw -html > "$dump/lshw.html"
