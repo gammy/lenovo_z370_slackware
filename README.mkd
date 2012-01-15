@@ -38,6 +38,7 @@ Working
  * FN-key combinations
 <ul><li>LCD brightness keys seem to work (even without ```ideapad_laptop```) on the hardware level
 <li>WiFi toggle, Volume, Play/Pause, Prev/Next etc (```XF86WIFI```, ```XF86AudioLowerVolume```, ```XF86AudioRaiseVolume```, ```XF86AudioPlay``` etc)</li></ul>
+ * The small button to the right of the power-button works and identifies as ```XF86Launch1```
 
 Partially working
 -----------------
@@ -46,7 +47,6 @@ Partially working
 <ul><li>Works, but exhibits high packet loss on new connections during high bandwidth load</li></ul>
 * Multimedia
  * Hotkeys (resistive-touch buttons) - buggy. See [this video](http://www.youtube.com/watch?v=cx2vYzSv0mo)
- * The small button to the right of the power-button works and identifies as ```XF86Launch1```
  * Touchpad
 <ul><li>Multitouch works
 <li>Right-side scroll not yet configured</li></ul>
