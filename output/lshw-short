@@ -34,3 +34,6 @@ H/W path         Device     Class          Description
 /0/100/1f.2/0/3  /dev/sda3  volume         400GiB EXT3 volume
 /0/100/1f.2/1    /dev/cdr   disk           CDDVDW TS-L633F
 /0/100/1f.3                 bus            6 Series Chipset Family SMBus Controller
+/0/1             scsi6      storage        
+/0/1/0.0.0       /dev/sdb   disk           xD/SD/M.S.
+/0/1/0.0.0/0     /dev/sdb   disk           

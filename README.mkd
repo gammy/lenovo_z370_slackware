@@ -40,7 +40,7 @@ Working
 <li>WiFi toggle, Volume, Play/Pause, Prev/Next etc (```XF86WIFI```, ```XF86AudioLowerVolume```, ```XF86AudioRaiseVolume```, ```XF86AudioPlay``` etc)</li></ul>
  * The small button to the right of the power-button works and identifies as ```XF86Launch1```
  * Synaptics touchpad
-<ul><li>Multitouch works, Sidescroll works (with ``xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Edge Scrolling" 1 1 1````)
+<ul><li>Multitouch works, Sidescroll works (with ```xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Edge Scrolling" 1 1 1```)
 
 Partially working
 -----------------
