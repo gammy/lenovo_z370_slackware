@@ -17,7 +17,10 @@ Functionality
 =============
 Quick summary
 -------------
-Core functionality works. Accelerated graphics are a no-go. Resistive touch buttons are buggy.
+Resistive touch buttons are buggy but apart from that, this laptop works quite well. 
+I don't know yet how the hybrid stuff is supposed to function, but it would seem 
+(although I can be wrong) that the intel graphics are performing quite spectacularly - 
+stellarium runs att full vsync framerate!
 
 Working
 -------
