@@ -8,11 +8,11 @@ H/W path         Device     Class          Description
 /0/4/5                      memory         32KiB L1 cache
 /0/4/6                      memory         256KiB L2 cache
 /0/4/7                      memory         3MiB L3 cache
-/0/f                        memory         4GiB System Memory
+/0/f                        memory         8GiB System Memory
 /0/f/0                      memory         4GiB SODIMM DDR3 Synchronous 1334 MHz (0.7 ns)
-/0/f/1                      memory         SODIMM Synchronous [empty]
-/0/f/2                      memory         SODIMM Synchronous [empty]
-/0/f/3                      memory         SODIMM Synchronous [empty]
+/0/f/1                      memory         SODIMM DDR3 Synchronous [empty]
+/0/f/2                      memory         4GiB SODIMM DDR3 Synchronous 1334 MHz (0.7 ns)
+/0/f/3                      memory         SODIMM DDR3 Synchronous [empty]
 /0/100                      bridge         2nd Generation Core Processor Family DRAM Controller
 /0/100/1                    bridge         2nd Generation Core Processor Family PCI Express Root Port
 /0/100/1/0                  display        nVidia Corporation

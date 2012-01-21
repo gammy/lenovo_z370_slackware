@@ -131,7 +131,7 @@
           <tr><td class="first">description: </td><td class="second">System Memory</td></tr>
           <tr><td class="first">physical id: </td><td class="second"><div class="id">f</div></td></tr>
           <tr><td class="first">slot: </td><td class="second">System board or motherboard</td></tr>
-          <tr><td class="first">size: </td><td class="second">4GiB</td></tr>
+          <tr><td class="first">size: </td><td class="second">8GiB</td></tr>
  </tbody>       </table></div>
 <div class="indented">
                     <div class="indented">
@@ -154,7 +154,7 @@
           <table width="100%" class="node" summary="attributes of bank:1">
  <thead><tr><td class="first">id:</td><td class="second"><div class="id">bank:1</div></td></tr></thead>
  <tbody>
-             <tr><td class="first">description: </td><td class="second">SODIMM Synchronous [empty]</td></tr>
+             <tr><td class="first">description: </td><td class="second">SODIMM DDR3 Synchronous [empty]</td></tr>
              <tr><td class="first">physical id: </td><td class="second"><div class="id">1</div></td></tr>
              <tr><td class="first">slot: </td><td class="second">DIMM1</td></tr>
  </tbody>          </table></div>
@@ -164,9 +164,15 @@
           <table width="100%" class="node" summary="attributes of bank:2">
  <thead><tr><td class="first">id:</td><td class="second"><div class="id">bank:2</div></td></tr></thead>
  <tbody>
-             <tr><td class="first">description: </td><td class="second">SODIMM Synchronous [empty]</td></tr>
+             <tr><td class="first">description: </td><td class="second">SODIMM DDR3 Synchronous 1334 MHz (0.7 ns)</td></tr>
+             <tr><td class="first">product: </td><td class="second">CMSO4GX3M1A1333C9</td></tr>
+             <tr><td class="first">vendor: </td><td class="second">AMI</td></tr>
              <tr><td class="first">physical id: </td><td class="second"><div class="id">2</div></td></tr>
+             <tr><td class="first">serial: </td><td class="second">07000000</td></tr>
              <tr><td class="first">slot: </td><td class="second">DIMM2</td></tr>
+             <tr><td class="first">size: </td><td class="second">4GiB</td></tr>
+             <tr><td class="first">width: </td><td class="second">64 bits</td></tr>
+             <tr><td class="first">clock: </td><td class="second">1334MHz (0.7ns)</td></tr>
  </tbody>          </table></div>
           </div>
 <div class="indented">
@@ -174,7 +180,7 @@
           <table width="100%" class="node" summary="attributes of bank:3">
  <thead><tr><td class="first">id:</td><td class="second"><div class="id">bank:3</div></td></tr></thead>
  <tbody>
-             <tr><td class="first">description: </td><td class="second">SODIMM Synchronous [empty]</td></tr>
+             <tr><td class="first">description: </td><td class="second">SODIMM DDR3 Synchronous [empty]</td></tr>
              <tr><td class="first">physical id: </td><td class="second"><div class="id">3</div></td></tr>
              <tr><td class="first">slot: </td><td class="second">DIMM3</td></tr>
  </tbody>          </table></div>
@@ -215,7 +221,7 @@
  </tbody>          </table></div>
 <div class="indented">
                           <div class="indented">
-             <table width="100%" class="node" summary="attributes of display">
+             <table width="100%" class="node-unclaimed" summary="attributes of display">
  <thead><tr><td class="first">id:</td><td class="second"><div class="id">display</div></td></tr></thead>
  <tbody>
                 <tr><td class="first">description: </td><td class="second">VGA compatible controller</td></tr>
@@ -226,9 +232,9 @@
                 <tr><td class="first">version: </td><td class="second">a1</td></tr>
                 <tr><td class="first">width: </td><td class="second">64 bits</td></tr>
                 <tr><td class="first">clock: </td><td class="second">33MHz</td></tr>
-                <tr><td class="first">capabilities: </td><td class="second"><dfn title="Power Management">pm</dfn> <dfn title="Message Signalled Interrupts">msi</dfn> <dfn title="PCI Express">pciexpress</dfn> <dfn title="">vga_controller</dfn> <dfn title="bus mastering">bus_master</dfn> <dfn title="PCI capabilities listing">cap_list</dfn> </td></tr>
-                <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of display"><tr><td class="sub-first"> driver</td><td>=</td><td>nvidia</td></tr><tr><td class="sub-first"> latency</td><td>=</td><td>0</td></tr></table></td></tr>
-                <tr><td class="first">resources:</td><td class="second"><table summary="resources of display"><tr><td class="sub-first"> irq</td><td>:</td><td>16</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>c9000000-c9ffffff</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>e0000000-efffffff</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>f0000000-f1ffffff</td></tr><tr><td class="sub-first"> ioport</td><td>:</td><td>2000(size=128)</td></tr></table></td></tr>
+                <tr><td class="first">capabilities: </td><td class="second"><dfn title="Power Management">pm</dfn> <dfn title="Message Signalled Interrupts">msi</dfn> <dfn title="PCI Express">pciexpress</dfn> <dfn title="">vga_controller</dfn> <dfn title="PCI capabilities listing">cap_list</dfn> </td></tr>
+                <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of display"><tr><td class="sub-first"> latency</td><td>=</td><td>0</td></tr></table></td></tr>
+                <tr><td class="first">resources:</td><td class="second"><table summary="resources of display"><tr><td class="sub-first"> memory</td><td>:</td><td>c9000000-c9ffffff</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>e0000000-efffffff</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>f0000000-f1ffffff</td></tr><tr><td class="sub-first"> ioport</td><td>:</td><td>2000(size=128)</td></tr></table></td></tr>
  </tbody>             </table></div>
              </div>
           </div>
@@ -395,7 +401,7 @@
                 <tr><td class="first">width: </td><td class="second">64 bits</td></tr>
                 <tr><td class="first">clock: </td><td class="second">33MHz</td></tr>
                 <tr><td class="first">capabilities: </td><td class="second"><dfn title="Power Management">pm</dfn> <dfn title="Message Signalled Interrupts">msi</dfn> <dfn title="PCI Express">pciexpress</dfn> <dfn title="bus mastering">bus_master</dfn> <dfn title="PCI capabilities listing">cap_list</dfn> <dfn title="">ethernet</dfn> <dfn title="Physical interface">physical</dfn> <dfn title="Wireless-LAN">wireless</dfn> </td></tr>
-                <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of network"><tr><td class="sub-first"> broadcast</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> driver</td><td>=</td><td>ath9k</td></tr><tr><td class="sub-first"> driverversion</td><td>=</td><td>3.2.0</td></tr><tr><td class="sub-first"> firmware</td><td>=</td><td>N/A</td></tr><tr><td class="sub-first"> ip</td><td>=</td><td>192.168.1.75</td></tr><tr><td class="sub-first"> latency</td><td>=</td><td>0</td></tr><tr><td class="sub-first"> link</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> multicast</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> wireless</td><td>=</td><td>IEEE 802.11bgn</td></tr></table></td></tr>
+                <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of network"><tr><td class="sub-first"> broadcast</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> driver</td><td>=</td><td>ath9k</td></tr><tr><td class="sub-first"> driverversion</td><td>=</td><td>3.2.0</td></tr><tr><td class="sub-first"> firmware</td><td>=</td><td>N/A</td></tr><tr><td class="sub-first"> ip</td><td>=</td><td>192.168.1.81</td></tr><tr><td class="sub-first"> latency</td><td>=</td><td>0</td></tr><tr><td class="sub-first"> link</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> multicast</td><td>=</td><td>yes</td></tr><tr><td class="sub-first"> wireless</td><td>=</td><td>IEEE 802.11bgn</td></tr></table></td></tr>
                 <tr><td class="first">resources:</td><td class="second"><table summary="resources of network"><tr><td class="sub-first"> irq</td><td>:</td><td>18</td></tr><tr><td class="sub-first"> memory</td><td>:</td><td>cbef0000-cbefffff</td></tr></table></td></tr>
  </tbody>             </table></div>
              </div>
@@ -504,7 +510,7 @@
                    <tr><td class="first">size: </td><td class="second">1000MiB</td></tr>
                    <tr><td class="first">capacity: </td><td class="second">1000MiB</td></tr>
                    <tr><td class="first">capabilities: </td><td class="second"><dfn title="Primary partition">primary</dfn> <dfn title="Bootable partition (active)">bootable</dfn> <dfn title="Extended Attributes">extended_attributes</dfn> <dfn title="4GB+ files">large_files</dfn> <dfn title="EXT2/EXT3">ext2</dfn> <dfn title="initialized volume">initialized</dfn> </td></tr>
-                   <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of volume:1"><tr><td class="sub-first"> filesystem</td><td>=</td><td>ext2</td></tr><tr><td class="sub-first"> modified</td><td>=</td><td>2012-01-15 18:26:10</td></tr><tr><td class="sub-first"> mount.fstype</td><td>=</td><td>ext2</td></tr><tr><td class="sub-first"> mount.options</td><td>=</td><td>rw,relatime,errors=continue</td></tr><tr><td class="sub-first"> state</td><td>=</td><td>mounted</td></tr></table></td></tr>
+                   <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of volume:1"><tr><td class="sub-first"> filesystem</td><td>=</td><td>ext2</td></tr><tr><td class="sub-first"> modified</td><td>=</td><td>2012-01-21 19:35:12</td></tr><tr><td class="sub-first"> mount.fstype</td><td>=</td><td>ext2</td></tr><tr><td class="sub-first"> mount.options</td><td>=</td><td>rw,relatime,errors=continue</td></tr><tr><td class="sub-first"> state</td><td>=</td><td>mounted</td></tr></table></td></tr>
  </tbody>                </table></div>
                 </div>
 <div class="indented">
@@ -523,7 +529,7 @@
                    <tr><td class="first">size: </td><td class="second">400GiB</td></tr>
                    <tr><td class="first">capacity: </td><td class="second">400GiB</td></tr>
                    <tr><td class="first">capabilities: </td><td class="second"><dfn title="Primary partition">primary</dfn> <dfn title="Bootable partition (active)">bootable</dfn> <dfn title="">journaled</dfn> <dfn title="Extended Attributes">extended_attributes</dfn> <dfn title="4GB+ files">large_files</dfn> <dfn title="needs recovery">recover</dfn> <dfn title="">ext3</dfn> <dfn title="EXT2/EXT3">ext2</dfn> <dfn title="initialized volume">initialized</dfn> </td></tr>
-                   <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of volume:2"><tr><td class="sub-first"> created</td><td>=</td><td>2012-01-08 21:10:53</td></tr><tr><td class="sub-first"> filesystem</td><td>=</td><td>ext3</td></tr><tr><td class="sub-first"> modified</td><td>=</td><td>2012-01-15 18:11:28</td></tr><tr><td class="sub-first"> mount.fstype</td><td>=</td><td>ext3</td></tr><tr><td class="sub-first"> mount.options</td><td>=</td><td>rw,relatime,errors=continue,barrier=1,data=writeback</td></tr><tr><td class="sub-first"> mounted</td><td>=</td><td>2012-01-15 18:26:06</td></tr><tr><td class="sub-first"> state</td><td>=</td><td>mounted</td></tr></table></td></tr>
+                   <tr><td class="first">configuration:</td><td class="second"><table summary="configuration of volume:2"><tr><td class="sub-first"> created</td><td>=</td><td>2012-01-08 21:10:53</td></tr><tr><td class="sub-first"> filesystem</td><td>=</td><td>ext3</td></tr><tr><td class="sub-first"> modified</td><td>=</td><td>2012-01-15 18:11:28</td></tr><tr><td class="sub-first"> mount.fstype</td><td>=</td><td>ext3</td></tr><tr><td class="sub-first"> mount.options</td><td>=</td><td>rw,relatime,errors=continue,barrier=1,data=writeback</td></tr><tr><td class="sub-first"> mounted</td><td>=</td><td>2012-01-21 17:30:31</td></tr><tr><td class="sub-first"> state</td><td>=</td><td>mounted</td></tr></table></td></tr>
  </tbody>                </table></div>
                 </div>
              </div>

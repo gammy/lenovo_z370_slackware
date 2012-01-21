@@ -309,7 +309,7 @@
 	Capabilities: [98] PCI Advanced Features
 		AFCap: TP+ FLR+
 		AFCtrl: FLR-
-		AFStatus: TP-
+		AFStatus: TP+
 	Kernel driver in use: ehci_hcd
 
 00:1f.0 ISA bridge: Intel Corporation HM65 Express Chipset Family LPC Controller (rev 05)
@@ -354,9 +354,8 @@
 
 01:00.0 VGA compatible controller: nVidia Corporation Device 1054 (rev a1) (prog-if 00 [VGA controller])
 	Subsystem: Lenovo Device 397f
-	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
 	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
-	Latency: 0, Cache Line Size: 64 bytes
 	Interrupt: pin A routed to IRQ 16
 	Region 0: Memory at c9000000 (32-bit, non-prefetchable) [size=16M]
 	Region 1: Memory at e0000000 (64-bit, prefetchable) [size=256M]
@@ -397,7 +396,6 @@
 			Status:	NegoPending- InProgress-
 	Capabilities: [128 v1] Power Budgeting <?>
 	Capabilities: [600 v1] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
-	Kernel driver in use: nvidia
 	Kernel modules: nvidia, nouveau, nvidiafb
 
 05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8101E/RTL8102E PCI Express Fast Ethernet controller (rev 05)

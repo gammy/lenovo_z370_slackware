@@ -1,7 +1,4 @@
 #!/bin/bash
-# - Copy interesting files
-# - Generate some output files
-# Only for my internal use.
 
 # Config target
 cfg="cfg"
@@ -42,6 +39,8 @@ for f in "/etc/mkinitrd.conf" \
 done
 
 ## Dump system info
+glxinfo > "$dump/glxinfo"
+
 sudo -s << EOF
 lspci -vv > "$dump/lspci"
 lsusb -v > "$dump/lsusb"

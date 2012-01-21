@@ -269,7 +269,7 @@ Hub Descriptor:
  Hub Port Status:
    Port 1: 0000.0100 power
    Port 2: 0000.0100 power
-   Port 3: 0000.0507 highspeed power suspend enable connect
+   Port 3: 0000.0503 highspeed power enable connect
    Port 4: 0000.0100 power
    Port 5: 0000.0100 power
    Port 6: 0000.0103 power enable connect
