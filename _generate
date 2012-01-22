@@ -40,6 +40,7 @@ done
 
 ## Dump system info
 glxinfo > "$dump/glxinfo"
+glewinfo > "$dump/glewinfo"
 
 sudo -s << EOF
 lspci -vv > "$dump/lspci"
